@@ -5,18 +5,28 @@ using namespace std;
 int main()
 {
 
-int num ,res=1;
+int num ,res=1,value;
 
 cin >> num ;
 
-for (size_t i = 1; i <= num; i++)
+
+for (int j=0; j<num ;j++){
+
+cin>>value;
+
+for (size_t i = 1; i <= value; i++)
 {
 
-res=num*i;
+res=res*i;
 
 }
-
 cout<<res<<endl;
+res=1;
+}
+
+
+
+
 
 return 0;
 }
