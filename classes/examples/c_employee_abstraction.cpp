@@ -7,7 +7,7 @@ class AbstractEmployee{
 
 };
 
-class Employee:AbstractEmployee {
+class Employee:AbstractEmployee { 
 
 private :
 std::string Name;
